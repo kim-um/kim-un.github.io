@@ -1,1 +1,457 @@
-<h1> Github pages </h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== NAVEGACIÓN ==================== -->
+  <!-- Barra de navegación fija en la parte superior -->
+  <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <!-- Logo/Nombre - AGREGA TU NOMBRE AQUÍ -->
+      <a class="navbar-brand" href="#inicio">Tu Nombre</a>
+      
+      <!-- Botón menú móvil -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolio">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#acerca">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== SECCIÓN: INICIO ==================== -->
+  <!-- Hero section con presentación -->
+  <section id="inicio" style="padding-top: 8rem;">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <!-- Presentación central -->
+        <div class="col-lg-8 text-center">
+          <!-- AGREGA AQUÍ tu saludo/título -->
+          <h2 class="text-purple mb-3">Hola, soy</h2>
+          <!-- AGREGA AQUÍ tu nombre completo -->
+          <h1 class="display-4 mb-4">Tu Nombre Completo</h1>
+          <!-- AGREGA AQUÍ tu título profesional o especialidad -->
+          <p class="lead text-white mb-4">
+            Desarrollador Web Full Stack | Diseñador UI/UX
+          </p>
+          <!-- AGREGA AQUÍ una breve descripción de quién eres -->
+          <p class="text-muted mb-5">
+            Apasionado por crear experiencias digitales innovadoras y funcionales.
+            Con experiencia en desarrollo web y diseño de interfaces centradas en el usuario.
+          </p>
+          
+          <!-- Botones de acción -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <a href="#portafolio" class="btn btn-primary-custom px-4">Ver Proyectos</a>
+            <a href="#" class="btn btn-outline-custom px-4">Descargar CV</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Sección de tecnologías -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="card card-custom">
+            <div class="card-body p-4">
+              <h3 class="h5 text-purple text-center mb-4">Tecnologías y Herramientas</h3>
+              <div class="d-flex flex-wrap justify-content-center gap-2">
+                <span class="badge badge-custom">HTML</span>
+                <span class="badge badge-custom">Python</span>
+                <span class="badge badge-custom">Java</span>
+                <span class="badge badge-custom">JavaScript</span>
+                <span class="badge badge-custom">POO</span>
+                <span class="badge badge-custom">Testing y Depuración</span>
+                <span class="badge badge-custom">CSS</span>
+                <span class="badge badge-custom">Bootstrap</span>
+                <span class="badge badge-custom">MySQL</span>
+                <span class="badge badge-custom">SQL Server</span>
+                <span class="badge badge-custom">Git / GitHub</span>
+                <span class="badge badge-custom">Scrum</span>
+                <span class="badge badge-custom">FIGMA</span>
+                <span class="badge badge-custom">Spring Boot</span>
+                <span class="badge badge-custom">Jira</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECCIÓN: PORTAFOLIO ==================== -->
+  <!-- Galería de proyectos -->
+  <section id="portafolio" class="section-alt">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Portafolio</h2>
+        <p class="text-muted">
+          Explora una selección de mis proyectos más recientes y destacados
+        </p>
+      </div>
+
+      <!-- Grid de proyectos - AGREGA AQUÍ tus proyectos -->
+      <div class="row g-4">
+        <!-- Proyecto 1 - DUPLICA ESTA ESTRUCTURA PARA MÁS PROYECTOS -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100">
+            <div class="card-body p-4">
+              <!-- AGREGA AQUÍ la imagen o captura del proyecto -->
+              <div class="gradient-purple-pink rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Captura del Proyecto 1</p>
+              </div>
+              <!-- AGREGA AQUÍ el nombre del proyecto -->
+              <h5 class="card-title text-purple">Nombre del Proyecto 1</h5>
+              <!-- AGREGA AQUÍ una breve descripción -->
+              <p class="card-text text-muted mb-3">
+                Descripción breve del proyecto. Qué problema resuelve y qué tecnologías utiliza.
+              </p>
+              
+              <!-- AGREGA AQUÍ las tecnologías usadas -->
+              <div class="mb-3">
+                <span class="badge badge-custom me-1 mb-1">Java</span>
+                <span class="badge badge-custom me-1 mb-1">Spring Boot</span>
+                <span class="badge badge-custom me-1 mb-1">MySQL</span>
+              </div>
+              
+              <!-- AGREGA AQUÍ los enlaces al proyecto -->
+              <div class="d-flex gap-2">
+                <button class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</button>
+                <button class="btn btn-outline-custom btn-sm flex-fill">Ver Código</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 - EDITA ESTA TARJETA -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100">
+            <div class="card-body p-4">
+              <div class="gradient-blue-purple rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Captura del Proyecto 2</p>
+              </div>
+              <h5 class="card-title text-purple">Nombre del Proyecto 2</h5>
+              <p class="card-text text-muted mb-3">
+                Descripción breve del proyecto. Qué problema resuelve y qué tecnologías utiliza.
+              </p>
+              
+              <div class="mb-3">
+                <span class="badge badge-custom me-1 mb-1">HTML</span>
+                <span class="badge badge-custom me-1 mb-1">CSS</span>
+                <span class="badge badge-custom me-1 mb-1">JavaScript</span>
+              </div>
+              
+              <div class="d-flex gap-2">
+                <button class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</button>
+                <button class="btn btn-outline-custom btn-sm flex-fill">Ver Código</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3 - EDITA ESTA TARJETA -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100">
+            <div class="card-body p-4">
+              <div class="gradient-pink-purple rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Captura del Proyecto 3</p>
+              </div>
+              <h5 class="card-title text-purple">Nombre del Proyecto 3</h5>
+              <p class="card-text text-muted mb-3">
+                Descripción breve del proyecto. Qué problema resuelve y qué tecnologías utiliza.
+              </p>
+              
+              <div class="mb-3">
+                <span class="badge badge-custom me-1 mb-1">Python</span>
+                <span class="badge badge-custom me-1 mb-1">SQL Server</span>
+                <span class="badge badge-custom me-1 mb-1">Bootstrap</span>
+              </div>
+              
+              <div class="d-flex gap-2">
+                <button class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</button>
+                <button class="btn btn-outline-custom btn-sm flex-fill">Ver Código</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AGREGA MÁS PROYECTOS AQUÍ copiando la estructura de las tarjetas anteriores -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECCIÓN: ACERCA DE MÍ ==================== -->
+  <!-- Historia personal y profesional -->
+  <section id="acerca">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Acerca de mí</h2>
+        <p class="text-muted">Conoce un poco más sobre mi historia</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card card-custom">
+            <div class="card-body p-4 p-md-5">
+              <!-- AGREGA AQUÍ tu historia personal - Puedes dividirla en varios párrafos -->
+              <div class="text-muted mb-4">
+                <p>
+                  ¡Hola! Soy [Tu Nombre], un profesional apasionado por [tu área de especialización].
+                  Mi viaje en el mundo de [tu campo] comenzó hace [X años] cuando [cuenta cómo empezaste].
+                </p>
+                <p>
+                  A lo largo de mi carrera, he tenido la oportunidad de trabajar en [tipo de proyectos/empresas],
+                  donde he desarrollado habilidades en [menciona tus habilidades principales]. Me apasiona
+                  especialmente [qué te apasiona de tu trabajo].
+                </p>
+                <p>
+                  Cuando no estoy programando/trabajando, disfruto de [tus hobbies e intereses]. Creo firmemente
+                  en [tus valores profesionales/personales], y siempre estoy buscando oportunidades para
+                  [tus objetivos de crecimiento].
+                </p>
+                <p class="mb-0">
+                  Mi objetivo es [tu objetivo profesional a largo plazo]. Si tienes un proyecto interesante
+                  o simplemente quieres charlar sobre [tema de interés], ¡no dudes en contactarme!
+                </p>
+              </div>
+
+              <hr class="separator-custom my-4">
+
+              <!-- Valores o principios - AGREGA AQUÍ tus valores -->
+              <div>
+                <h3 class="h5 text-purple mb-4">Mis Valores</h3>
+                <div class="row g-4">
+                  <div class="col-md-4">
+                    <h4 class="h6 text-purple mb-2">Innovación</h4>
+                    <p class="text-muted mb-0">
+                      Siempre buscando nuevas formas de resolver problemas
+                    </p>
+                  </div>
+                  <div class="col-md-4">
+                    <h4 class="h6 text-purple mb-2">Calidad</h4>
+                    <p class="text-muted mb-0">
+                      Comprometido con la excelencia en cada proyecto
+                    </p>
+                  </div>
+                  <div class="col-md-4">
+                    <h4 class="h6 text-purple mb-2">Aprendizaje</h4>
+                    <p class="text-muted mb-0">
+                      En constante evolución y actualización de conocimientos
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECCIÓN: BLOG ==================== -->
+  <!-- Artículos y reflexiones -->
+  <section id="blog" class="section-alt">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Blog</h2>
+        <p class="text-muted">
+          Reflexiones, tutoriales y pensamientos sobre tecnología
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Artículo 1 - AGREGA AQUÍ tu reflexión principal -->
+        <div class="col-md-6">
+          <div class="card card-custom h-100">
+            <div class="card-body p-4">
+              <div class="gradient-purple-indigo rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Imagen del artículo</p>
+              </div>
+              
+              <div class="mb-2">
+                <span class="badge badge-custom me-1">Reflexión</span>
+                <span class="badge badge-custom">24 Oct 2025</span>
+              </div>
+              
+              <!-- AGREGA AQUÍ el título de tu reflexión -->
+              <h5 class="card-title text-purple">Título de tu Reflexión</h5>
+              
+              <!-- AGREGA AQUÍ un resumen de tu reflexión (2-3 líneas) -->
+              <p class="card-text text-muted mb-3">
+                Breve introducción o resumen de tu artículo de reflexión. Aquí puedes
+                dar un adelanto de lo que trata el artículo completo...
+              </p>
+              
+              <!-- AGREGA AQUÍ el contenido completo de tu reflexión -->
+              <div class="text-muted mb-3">
+                <p>
+                  Primer párrafo de tu reflexión. Aquí puedes desarrollar tus ideas,
+                  compartir tus experiencias o análisis sobre el tema que elijas...
+                </p>
+                <p>
+                  Segundo párrafo donde continúas desarrollando tu reflexión. Puedes
+                  agregar ejemplos, anécdotas personales o lecciones aprendidas...
+                </p>
+                <p class="mb-0">
+                  Conclusión de tu reflexión. Resume los puntos principales y ofrece
+                  una perspectiva final sobre el tema...
+                </p>
+              </div>
+              
+              <button class="btn btn-primary-custom w-100">Leer más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artículo 2 - AGREGA MÁS ARTÍCULOS AQUÍ -->
+        <div class="col-md-6">
+          <div class="card card-custom h-100">
+            <div class="card-body p-4">
+              <div class="gradient-pink-purple rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Imagen del artículo</p>
+              </div>
+              
+              <div class="mb-2">
+                <span class="badge badge-custom me-1">Tutorial</span>
+                <span class="badge badge-custom">15 Oct 2025</span>
+              </div>
+              
+              <h5 class="card-title text-purple">Título del Segundo Artículo</h5>
+              <p class="card-text text-muted mb-3">
+                Descripción breve del artículo. Puede ser un tutorial, análisis técnico,
+                o cualquier tema relevante para tu área...
+              </p>
+              
+              <button class="btn btn-primary-custom w-100">Leer más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- AGREGA MÁS ARTÍCULOS DE BLOG AQUÍ copiando la estructura anterior -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <!-- Pie de página con información de contacto -->
+  <footer class="footer-custom text-white py-5">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <!-- Columna 1 - Sobre -->
+        <div class="col-md-4">
+          <h3 class="h5 text-purple mb-3">Tu Nombre</h3>
+          <p class="text-muted">
+            <!-- AGREGA AQUÍ un resumen breve -->
+            Desarrollador apasionado creando soluciones digitales innovadoras.
+          </p>
+        </div>
+
+        <!-- Columna 2 - Enlaces rápidos -->
+        <div class="col-md-4">
+          <h3 class="h5 text-purple mb-3">Enlaces Rápidos</h3>
+          <div class="d-flex flex-column gap-2">
+            <a href="#inicio" class="text-muted text-decoration-none hover-purple">Inicio</a>
+            <a href="#portafolio" class="text-muted text-decoration-none hover-purple">Portafolio</a>
+            <a href="#acerca" class="text-muted text-decoration-none hover-purple">Acerca de mí</a>
+            <a href="#blog" class="text-muted text-decoration-none hover-purple">Blog</a>
+          </div>
+        </div>
+
+        <!-- Columna 3 - Contacto y Redes Sociales -->
+        <div class="col-md-4">
+          <h3 class="h5 text-purple mb-3">Contacto</h3>
+          
+          <!-- Email - AGREGA AQUÍ tu email -->
+          <div class="d-flex align-items-center mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple me-2">
+              <rect width="20" height="16" x="2" y="4" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+            <a href="mailto:tuemail@ejemplo.com" class="text-muted text-decoration-none hover-purple">
+              tuemail@ejemplo.com
+            </a>
+          </div>
+
+          <!-- Teléfono - AGREGA AQUÍ tu teléfono -->
+          <div class="d-flex align-items-center mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple me-2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <a href="tel:+1234567890" class="text-muted text-decoration-none hover-purple">
+              +123 456 7890
+            </a>
+          </div>
+          
+          <p class="text-muted mb-2">Sígueme en:</p>
+          <div class="d-flex gap-3">
+            <!-- AGREGA AQUÍ tus enlaces de redes sociales -->
+            <a href="https://github.com/tuusuario" target="_blank" class="social-icon" title="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                <path d="M9 18c-4.51 2-5-2-7-2"/>
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/tuusuario" target="_blank" class="social-icon" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect width="4" height="12" x="2" y="9"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <a href="https://instagram.com/tuusuario" target="_blank" class="social-icon" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com/tuusuario" target="_blank" class="social-icon" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="separator-custom my-4">
+
+      <!-- Copyright -->
+      <div class="text-center text-muted">
+        <p class="mb-0">© 2025 Tu Nombre. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
