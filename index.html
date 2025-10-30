@@ -17,7 +17,7 @@
   <!-- Barra de navegación fija en la parte superior -->
   <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
     <div class="container">
-      <!-- Logo/Nombre - AGREGA TU NOMBRE AQUÍ -->
+      <!-- Logo/Nombre -->
       <a class="navbar-brand" href="#inicio">Kimo</a>
       
       <!-- Botón menú móvil -->
@@ -37,7 +37,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#acerca">Acerca de mí</a>
           </li>
-          
         </ul>
       </div>
     </div>
@@ -50,15 +49,11 @@
       <div class="row align-items-center justify-content-center">
         <!-- Presentación central -->
         <div class="col-lg-8 text-center">
-          <!-- AGREGA AQUÍ tu saludo/título -->
           <h2 class="text-purple mb-3">Hola, soy</h2>
-          <!-- AGREGA AQUÍ tu nombre completo -->
           <h1 class="display-4 mb-4">Kimberly Deyanira Uriarte Meraz</h1>
-          <!-- AGREGA AQUÍ tu título profesional o especialidad -->
           <p class="lead text-white mb-4">
             Desarrollador Web Java Full Stack | Diseñador UI/UX
           </p>
-          <!-- AGREGA AQUÍ una breve descripción de quién eres -->
           <p class="text-muted mb-5">
             Apasionado por crear experiencias digitales innovadoras y funcionales.
             Con experiencia en desarrollo web y diseño de interfaces centradas en el usuario.
@@ -67,7 +62,7 @@
           <!-- Botones de acción -->
           <div class="d-flex flex-wrap gap-3 justify-content-center">
             <a href="#portafolio" class="btn btn-primary-custom px-4">Ver Proyectos</a>
-            <a href="#" class="btn btn-outline-custom px-4">Descargar CV</a>
+            <a href="assets/cv/CV_Kimberly_Uriarte.pdf" download="CV_Kimberly_Uriarte.pdf" class="btn btn-outline-custom px-4">Descargar CV</a>
           </div>
         </div>
       </div>
@@ -113,54 +108,70 @@
         </p>
       </div>
 
-      <!-- Grid de proyectos - AGREGA AQUÍ tus proyectos -->
+      <!-- Grid de proyectos -->
       <div class="row g-4">
-        <!-- Proyecto 1 - DUPLICA ESTA ESTRUCTURA PARA MÁS PROYECTOS -->
+        
+        <!-- =============== PROYECTO 1: ALMA DE TORTUGA =============== -->
         <div class="col-md-6 col-lg-4">
           <div class="card card-custom h-100">
             <div class="card-body p-4">
-              <!-- AGREGA AQUÍ la imagen o captura del proyecto -->
-              <div class="gradient-purple-pink rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-                <p class="text-white mb-0">Captura del Proyecto 1</p>
-              </div>
-              <!-- AGREGA AQUÍ el nombre del proyecto -->
+              
+              <!-- 🖼️ IMAGEN PROYECTO 1 - Coloca aquí tu imagen -->
+              <!-- Opción 1: Si tienes la imagen en tu carpeta assets/img/ -->
+              <img src="assets/img/En_Constrccion.jpg" alt="Alma de Tortuga" class="img-fluid rounded mb-3 project-image">
+              
+              <!-- Opción 2: Si usas URL externa, reemplaza el src -->
+              <!-- <img src="TU_URL_AQUI" alt="Alma de Tortuga" class="img-fluid rounded mb-3 project-image"> -->
+              
+              <!-- Opción 3: Si aún no tienes imagen, deja este placeholder temporal -->
+              <!-- <div class="gradient-purple-pink rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Imagen próximamente</p>
+              </div> -->
+              
               <h5 class="card-title text-purple">Alma de Tortuga</h5>
-              <!-- AGREGA AQUÍ una breve descripción -->
-              <p class="card-text text-muted mb-3">
+              <p class="card-text project-description mb-3">
                 Alma de Tortuga es un ecommerce dedicado a la venta de bolsas ecológicas diseñadas a mano, 
                 elaboradas con amor y conciencia ambiental. Cada pieza es única, creada mediante bordado o 
                 serigrafía artesanal, reflejando la conexión entre arte, naturaleza y sostenibilidad.
               </p>
-              <p>
+              <p class="project-description">
                 Además, donamos un porcentaje de cada venta a la preservación de especies marinas y terrestres 
                 en peligro, reafirmando nuestro compromiso con un planeta más verde y lleno de vida.
               </p>
               
-              <!-- AGREGA AQUÍ las tecnologías usadas -->
               <div class="mb-3">
                 <span class="badge badge-custom me-1 mb-1">HTML</span>
                 <span class="badge badge-custom me-1 mb-1">Bootstrap</span>
                 <span class="badge badge-custom me-1 mb-1">CSS</span>
               </div>
               
-              <!-- AGREGA AQUÍ los enlaces al proyecto -->
               <div class="d-flex gap-2">
-                <button class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</button>
-                <button class="btn btn-outline-custom btn-sm flex-fill">Ver Código</button>
+                <a href="#" target="_blank" class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</a>
+                <a href="https://github.com/CH60-Equipo4/ALMA-DE-TORTUGA---Ecommerce" target="_blank" class="btn btn-outline-custom btn-sm flex-fill">Ver Código</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Proyecto 2 - EDITA ESTA TARJETA -->
+        <!-- =============== PROYECTO 2: SPORTLEGEND =============== -->
         <div class="col-md-6 col-lg-4">
           <div class="card card-custom h-100">
             <div class="card-body p-4">
-              <div class="gradient-blue-purple rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-                <p class="text-white mb-0">Captura del Proyecto 2</p>
-              </div>
+              
+              <!-- 🖼️ IMAGEN PROYECTO 2 - Coloca aquí tu imagen -->
+              <!-- Opción 1: Si tienes la imagen en tu carpeta assets/img/ -->
+              <img src="assets/img/SportLegend.png" alt="SportLegend" class="img-fluid rounded mb-3 project-image">
+              
+              <!-- Opción 2: Si usas URL externa, reemplaza el src -->
+              <!-- <img src="TU_URL_AQUI" alt="SportLegend" class="img-fluid rounded mb-3 project-image"> -->
+              
+              <!-- Opción 3: Si aún no tienes imagen, deja este placeholder temporal -->
+              <!-- <div class="gradient-blue-purple rounded mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p class="text-white mb-0">Imagen próximamente</p>
+              </div> -->
+              
               <h5 class="card-title text-purple">SportLegend</h5>
-              <p class="card-text text-muted mb-3">
+              <p class="card-text project-description mb-3">
                 SportLegend es una tienda de camisetas deportivas que ofrece una amplia variedad de prendas de 
                 equipos legendarios y atletas de todo el mundo. Nuestro objetivo es proporcionar a los fanáticos 
                 del deporte una experiencia de compra excepcional, con productos de alta calidad y un servicio al 
@@ -175,17 +186,42 @@
               </div>
               
               <div class="d-flex gap-2">
-                <button class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</button>
-                <button class="btn btn-outline-custom btn-sm flex-fill">Ver Código</button>
+                <a href="https://kim-um.github.io/sportlegend/" target="_blank" class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</a>
+                <a href="https://github.com/kim-um/SportLegend" target="_blank" class="btn btn-outline-custom btn-sm flex-fill">Ver Código</a>
               </div>
             </div>
           </div>
         </div>
 
+        <!-- =============== PROYECTO 3 (OPCIONAL) =============== -->
+        <!-- Descomenta esta sección si quieres agregar un tercer proyecto -->
+        <!--
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100">
+            <div class="card-body p-4">
+              
+              🖼️ IMAGEN PROYECTO 3 - Coloca aquí tu imagen
+              <img src="assets/img/proyecto3.jpg" alt="Nombre Proyecto 3" class="img-fluid rounded mb-3 project-image">
+              
+              <h5 class="card-title text-purple">Nombre del Proyecto 3</h5>
+              <p class="card-text project-description mb-3">
+                Descripción de tu tercer proyecto aquí...
+              </p>
+              
+              <div class="mb-3">
+                <span class="badge badge-custom me-1 mb-1">Tecnología 1</span>
+                <span class="badge badge-custom me-1 mb-1">Tecnología 2</span>
+              </div>
+              
+              <div class="d-flex gap-2">
+                <a href="#" target="_blank" class="btn btn-primary-custom btn-sm flex-fill">Ver Demo</a>
+                <a href="#" target="_blank" class="btn btn-outline-custom btn-sm flex-fill">Ver Código</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        -->
 
-        
-
-        <!-- AGREGA MÁS PROYECTOS AQUÍ copiando la estructura de las tarjetas anteriores -->
       </div>
     </div>
   </section>
@@ -203,7 +239,6 @@
         <div class="col-lg-10">
           <div class="card card-custom">
             <div class="card-body p-4 p-md-5">
-              <!-- AGREGA AQUÍ tu historia personal - Puedes dividirla en varios párrafos -->
               <div class="text-muted mb-4">
                 <p>
                   Desde hace tiempo me ha interesado la tecnología 💻, pero fue mi curiosidad por la 
@@ -228,13 +263,12 @@
                 </p>
                
                 <p class="mb-0">
-                  Si quieres que tranajemos juntos, ¡no dudes en contactarme!
+                  Si quieres que trabajemos juntos, ¡no dudes en contactarme!
                 </p>
               </div>
 
               <hr class="separator-custom my-4">
 
-              <!-- Valores o principios - AGREGA AQUÍ tus valores -->
               <div>
                 <h3 class="h5 text-purple mb-4">Mis Valores</h3>
                 <div class="row g-4">
@@ -265,10 +299,7 @@
     </div>
   </section>
 
- 
-
   <!-- ==================== FOOTER ==================== -->
-  <!-- Pie de página con información de contacto -->
   <footer class="footer-custom text-white py-5">
     <div class="container">
       <div class="row g-4 mb-4">
@@ -276,7 +307,6 @@
         <div class="col-md-4">
           <h3 class="h5 text-purple mb-3">Kimo</h3>
           <p class="text-muted">
-            <!-- AGREGA AQUÍ un resumen breve -->
             Desarrollador apasionado creando soluciones digitales innovadoras.
           </p>
         </div>
@@ -288,7 +318,6 @@
             <a href="#inicio" class="text-muted text-decoration-none hover-purple">Inicio</a>
             <a href="#portafolio" class="text-muted text-decoration-none hover-purple">Portafolio</a>
             <a href="#acerca" class="text-muted text-decoration-none hover-purple">Acerca de mí</a>
-            <a href="#blog" class="text-muted text-decoration-none hover-purple">Blog</a>
           </div>
         </div>
 
@@ -296,37 +325,34 @@
         <div class="col-md-4">
           <h3 class="h5 text-purple mb-3">Contacto</h3>
           
-          <!-- Email - AGREGA AQUÍ tu email -->
           <div class="d-flex align-items-center mb-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple me-2">
               <rect width="20" height="16" x="2" y="4" rx="2"/>
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
             </svg>
-            <a href="mailto:tuemail@ejemplo.com" class="text-muted text-decoration-none hover-purple">
+            <a href="mailto:kimuriartemz@gmail.com" class="text-muted text-decoration-none hover-purple">
               kimuriartemz@gmail.com
             </a>
           </div>
 
-          <!-- Teléfono - AGREGA AQUÍ tu teléfono -->
           <div class="d-flex align-items-center mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple me-2">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
             </svg>
-            <a href="tel:+1234567890" class="text-muted text-decoration-none hover-purple">
+            <a href="tel:+526643660514" class="text-muted text-decoration-none hover-purple">
               +52 1 664 366 0514
             </a>
           </div>
           
           <p class="text-muted mb-2">Sígueme en:</p>
           <div class="d-flex gap-3">
-            <!-- AGREGA AQUÍ tus enlaces de redes sociales -->
             <a href="https://github.com/kim-um" target="_blank" class="social-icon" title="GitHub">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
                 <path d="M9 18c-4.51 2-5-2-7-2"/>
               </svg>
             </a>
-            <a href="www.linkedin.com/in/kimberly-deyanira-uriarte-meraz-1031a937b" target="_blank" class="social-icon" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/kimberly-deyanira-uriarte-meraz-1031a937b" target="_blank" class="social-icon" title="LinkedIn">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
                 <rect width="4" height="12" x="2" y="9"/>
@@ -340,20 +366,14 @@
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
               </svg>
             </a>
-            <a href="https://facebook.com/tuusuario" target="_blank" class="social-icon" title="Facebook">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-              </svg>
-            </a>
           </div>
         </div>
       </div>
 
       <hr class="separator-custom my-4">
 
-      <!-- Copyright -->
       <div class="text-center text-muted">
-        <p class="mb-0">© 2025 Kimochan. Todos los derechos reservados.</p>
+        <p class="mb-0">© 2025 Kimo. Todos los derechos reservados.</p>
       </div>
     </div>
   </footer>

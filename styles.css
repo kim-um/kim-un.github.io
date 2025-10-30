@@ -204,3 +204,22 @@ h2 {
 .section-alt {
   background: rgba(17, 24, 39, 0.3);
 }
+
+/* Agregar al final de tu archivo styles.css */
+
+/* ==================== PROYECTOS - DESCRIPCIONES ROSA MEXICANO ==================== */
+.project-description {
+  color: var(--color-pink-mexican) !important;
+}
+
+/* Estilos para las imágenes de proyectos */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-custom:hover .project-image {
+  transform: scale(1.05);
+}
